@@ -1,0 +1,401 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <!--EditText android:id="@+id/edit_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" 
+        android:layout_weight="1" /-->
+    
+  <TableRow>
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+        
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_clear"
+        android:onClick="clearCells" />
+        </TableRow>
+
+  <!--Row 0 -->
+   <TableRow>
+       <Spinner
+           android:id="@+id/Spinner00"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+           <!-- android:background=[@red,@drawable/ic_launcher] /-->
+       <Spinner
+           android:id="@+id/Spinner01"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner02"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner03"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner04"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner05"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+    			android:background="@drawable/test"/>
+       <Spinner
+           android:id="@+id/Spinner06"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner07"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner08"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+     <!--Row 1 -->
+   <TableRow>
+       <Spinner
+           android:id="@+id/Spinner10"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner11"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner12"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner13"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner14"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner15"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner16"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner17"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner18"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+        <!--Row 2 -->
+   <TableRow>
+       <Spinner
+           android:id="@+id/Spinner20"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner21"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner22"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner23"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner24"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner25"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner26"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner27"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner28"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+   <!-- Row 3 -->
+      <TableRow>
+       <Spinner
+           android:id="@+id/Spinner30"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner31"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner32"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner33"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner34"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner35"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner36"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:background="@drawable/test"/>
+       <Spinner
+           android:id="@+id/Spinner37"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+		<Spinner android:id="@+id/Spinner38"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+</TableRow>
+
+      <!-- Row 4 -->
+   <TableRow>
+       <Spinner
+           android:id="@+id/Spinner40"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner41"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner42"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner43"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner44"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner45"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner46"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner47"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+		<Spinner android:id="@+id/Spinner48"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+</TableRow>
+
+<!-- Row 5 -->
+      <TableRow>
+       <Spinner
+           android:id="@+id/Spinner50"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner51"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner52"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner53"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner54"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner55"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner56"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner57"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+		<Spinner android:id="@+id/Spinner58"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+</TableRow>
+
+      <!-- Row 6 -->
+         <TableRow>
+       <Spinner
+           android:id="@+id/Spinner60"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner61"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner62"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner63"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner64"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner65"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner66"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner67"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner68"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+         <!-- Row 7 -->
+            <TableRow>
+       <Spinner
+           android:id="@+id/Spinner70"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner71"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner72"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner73"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner74"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner75"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner76"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner77"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner78"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+            <!-- Row 8 -->
+               <TableRow>
+       <Spinner
+           android:id="@+id/Spinner80"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner81"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+	   <Spinner android:id="@+id/Spinner82"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/Spinner83"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner84"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/test" />
+	   <Spinner android:id="@+id/Spinner85"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/test" />
+       <Spinner
+           android:id="@+id/Spinner86"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Spinner
+           android:id="@+id/Spinner87"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/Spinner88"
+		        android:layout_width="match_parent"
+    			android:layout_height="wrap_content" />
+</TableRow>
+
+</TableLayout>
